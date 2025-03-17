@@ -1,0 +1,16 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "2076378",
+      "name": "飞机中",
+      "font_class": "feijizhong",
+      "unicode": "e8bf",
+      "unicode_decimal": 59583
+    }
+  ]
+}

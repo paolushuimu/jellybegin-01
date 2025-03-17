@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>水母优选</title>
+    <link rel="shortcut icon" href="./jellyfish_logo.ico">
+    <link rel="stylesheet" href="./css/commen.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/enroll.css">
+    <link rel="stylesheet" href="./font/下/iconfont.css">
+    <link rel="stylesheet" href="./font/书本/iconfont.css">
+    <link rel="stylesheet" href="./font/右/iconfont.css">
+    <link rel="stylesheet" href="./font/飞机/iconfont.css">
+    <link rel="stylesheet" href="./font/font_edxwfn0vc3/iconfont.css">
+    <link rel="stylesheet" href="./font/对错/iconfont.css">
+</head>
+
+<body>
+    <!-- 头部 -->
+    <header>
+        <section class="logo">
+            <h1><a href="#" title="水母优选"><img src="./images/jellyfishlogo_header.png" alt="LOGO">水母优选</a></h1>
+        </section>
+    </header>
+
+    <hr>
+
+    <!-- 注册面 -->
+    <section class="enrollbox">
+        <section class="enroll_title">
+            <div style="margin-left: 20px; font-size: 20px; font-weight: 600; color: #048bc2;">注册新用户</div>
+            <div style="margin-right: 20px; font-size: 14px;">已注册，去<span
+                    style="font-weight: 600; color: #048bc2;">登陆</span></div>
+        </section>
+        <section class="enroll_sign">
+            <ul class="info1">
+                <li class="info_1">手机号：</li>
+                <li class="info_2"><input type="tel"></li>
+                <li class="info_3"  style="color: red;"><i class="iconfont icon-cuowu" style="color: red; margin-right: 4px;"></i>手机号码输入不正确，请重新输入</li>
+            </ul>
+
+            <ul class="info2">
+                <li class="info_1">短信验证码：</li>
+                <li class="info_2"><input type="tel"></li>
+                <li class="info_3" style="color: green;"><i class="iconfont icon-duigou" style="color: green; margin-right: 4px;"></i>恭喜您输入正确！</li>
+            </ul>
+
+            <div class="info_password">
+                <ul class="info3">
+                    <li class="info_1">登录密码：</li>
+                    <li class="info_2"><input type="tel"></li>
+                    <li class="info_3"></li>
+                </ul>
+                <div class="sign_safe">
+                    安全程度：
+                    <div style="background-color: red;">弱</div>
+                    <div style="background-color: orange;">中</div>
+                    <div style="background-color: green;">强</div>
+                </div>
+            </div>
+
+            <ul class="info4">
+                <li class="info_1">确认密码：</li>
+                <li class="info_2"><input type="tel"></li>
+                <li class="info_3"></li>
+            </ul>
+
+            <div class="enroll_sign_agree">
+                <button id="mybutton" onclick="showmark()" style="width: 14px; height: 14px; border: 1px solid #a0a0a0;"></button>
+                同意协议并注册<span style="color: #048bc2;">《水母用户协议》</span>
+            </div>
+            
+            <div class="enroll_sign_button">
+                立即注册
+            </div>
+        </section>
+    </section>
+
+    <script>
+        function showmark() {
+            document.getElementById('mybutton').innerHTML = '√';
+        }
+    </script>
+</body>
+
+</html>
